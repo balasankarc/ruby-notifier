@@ -1,0 +1,99 @@
+--- !ruby/object:Gem::Specification
+name: notifier
+version: !ruby/object:Gem::Version
+  version: 0.5.0
+platform: ruby
+authors:
+- Nando Vieira
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2014-04-30 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: rspec
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+- !ruby/object:Gem::Dependency
+  name: rake
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+description: Send system notifications on several platforms with a simple and unified
+  API. Currently supports Growl, Libnotify, OSD, KDE (Knotify and Kdialog) and Snarl
+email:
+- fnando.vieira@gmail.com
+executables: []
+extensions: []
+extra_rdoc_files: []
+files:
+- ".gitignore"
+- ".rspec"
+- Gemfile
+- Gemfile.lock
+- README.rdoc
+- Rakefile
+- lib/notifier.rb
+- lib/notifier/adapters.rb
+- lib/notifier/adapters/gntp.rb
+- lib/notifier/gntp.rb
+- lib/notifier/growl.rb
+- lib/notifier/kdialog.rb
+- lib/notifier/knotify.rb
+- lib/notifier/notify_send.rb
+- lib/notifier/osd_cat.rb
+- lib/notifier/placebo.rb
+- lib/notifier/snarl.rb
+- lib/notifier/terminal_notifier.rb
+- lib/notifier/version.rb
+- notifier.gemspec
+- resources/register-growl.scpt
+- spec/notifier_spec.rb
+- spec/spec_helper.rb
+homepage: http://rubygems.org/gems/notifier
+licenses: []
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements:
+- Growl, terminal-notifier, Libnotify, OSD, KDE (Knotify and Kdialog) or Snarl
+rubyforge_project: 
+rubygems_version: 2.2.2
+signing_key: 
+specification_version: 4
+summary: Send system notifications on several platforms with a simple and unified
+  API. Currently supports Growl, Libnotify, OSD, KDE (Knotify and Kdialog) and Snarl
+test_files:
+- spec/notifier_spec.rb
+- spec/spec_helper.rb
