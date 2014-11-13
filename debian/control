@@ -4,11 +4,11 @@ Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Balasankar C <balasankarc@autistici.org>
 Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-rspec, rake
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-notifier.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-notifier.git;a=summary
 Homepage: http://rubygems.org/gems/notifier
-Testsuite: autopkgtest
+Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 
 Package: ruby-notifier
@@ -16,5 +16,7 @@ Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
 # rspec (>= 0, development), rake (>= 0, development)
-Description: Send system notifications on several platforms with a simple and unified API. Currently supports Growl, Libnotify, OSD, KDE (Knotify and Kdialog) and Snarl
- Send system notifications on several platforms with a simple and unified API. Currently supports Growl, Libnotify, OSD, KDE (Knotify and Kdialog) and Snarl
+Description: send system notifications on several platforms 
+ Notifier gem can be used to send system notifications on several platforms 
+ with a simple and unified API. Currently supports Growl, Libnotify, OSD, 
+ KDE (Knotify and Kdialog) and Snarl
