@@ -1,14 +1,14 @@
 --- !ruby/object:Gem::Specification
 name: notifier
 version: !ruby/object:Gem::Version
-  version: 0.5.0
+  version: 0.5.1
 platform: ruby
 authors:
 - Nando Vieira
 autorequire: 
 bindir: bin
 cert_chain: []
-date: 2014-04-30 00:00:00.000000000 Z
+date: 2015-03-20 00:00:00.000000000 Z
 dependencies:
 - !ruby/object:Gem::Dependency
   name: rspec
@@ -49,7 +49,6 @@ files:
 - ".gitignore"
 - ".rspec"
 - Gemfile
-- Gemfile.lock
 - README.rdoc
 - Rakefile
 - lib/notifier.rb
@@ -89,7 +88,7 @@ required_rubygems_version: !ruby/object:Gem::Requirement
 requirements:
 - Growl, terminal-notifier, Libnotify, OSD, KDE (Knotify and Kdialog) or Snarl
 rubyforge_project: 
-rubygems_version: 2.2.2
+rubygems_version: 2.4.6
 signing_key: 
 specification_version: 4
 summary: Send system notifications on several platforms with a simple and unified
