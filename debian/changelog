@@ -1,3 +1,11 @@
+ruby-notifier (0.5.1-1) experimental; urgency=medium
+
+  * New upstream release
+  * Releasing to experimental as it needs RSpec >=3.0.0
+  * Tightened build dependency on RSpec
+
+ -- Balasankar C <balasankarc@autistici.org>  Wed, 08 Apr 2015 15:19:12 +0530
+
 ruby-notifier (0.5.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #769373)
